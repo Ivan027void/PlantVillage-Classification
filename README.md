@@ -36,15 +36,13 @@ To evaluate the impact of **data augmentation** and **transfer learning** on CNN
 
 ## 🗂 Dataset
 
-* **Total images**: 3,109
+* **Total images**: 
 * **Number of classes**: 15
 * **Classes include**:
-
+* **Dataset Source** :[PlantVillage Dataset](https://www.kaggle.com/datasets/emmarex/plantdisease) 
   * Pepper: healthy, bacterial spot
   * Potato: healthy, early blight, late blight
   * Tomato: bacterial spot, early blight, late blight, leaf mold, septoria leaf spot, spider mites, target spot, yellow leaf curl virus, mosaic virus, healthy
-
-This dataset is relatively **clean and well-labeled**, which makes it suitable for studying the real impact of augmentation and transfer learning.
 
 ---
 
