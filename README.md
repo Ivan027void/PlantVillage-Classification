@@ -1,7 +1,7 @@
 # 🌿 Plant Leaf Disease Classification
 **CNN vs CNN (Augmented) vs MobileNetV2 (Transfer Learning)**
 
-## 📌 Project Overview
+## Project Overview
 
 This project investigates how **data augmentation** and **transfer learning** affect the performance of convolutional neural networks for **plant leaf disease classification**.
 
@@ -27,14 +27,14 @@ To evaluate the impact of **data augmentation** and **transfer learning** on CNN
 ### Specific Objectives
 
 1. Establish a strong **baseline** using a simple CNN without augmentation.
-2. Measure how **augmentation** affects generalization performance.
+2. Measure the **augmentation** affects generalization performance.
 3. Assess the benefit of **pretrained models** (MobileNetV2).
 4. Handle **class imbalance** using weighted loss and macro F1-score.
 5. Provide a **reproducible experimental workflow**.
 
 ---
 
-## 🗂 Dataset
+## Dataset
 
 * **Total images**: 
 * **Number of classes**: 15
@@ -46,7 +46,7 @@ To evaluate the impact of **data augmentation** and **transfer learning** on CNN
 
 ---
 
-## 🧠 Models
+##  Models
 
 | Model                   | Description                               |
 | ----------------------- | ----------------------------------------- |
@@ -114,7 +114,7 @@ Accuracy alone can be misleading in imbalanced datasets. Macro F1 gives equal im
 
 ---
 
-## 📌 When to Use Which Model
+## Model recommendations
 
 | Scenario                          | Recommended Model       |
 | --------------------------------- | ----------------------- |
@@ -134,7 +134,7 @@ Accuracy alone can be misleading in imbalanced datasets. Macro F1 gives equal im
 
 ---
 
-## 🧪 How to Reproduce
+## How to Reproduce
 
 1. Clone this repository
 2. Open the notebook in **Google Colab**
