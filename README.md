@@ -124,6 +124,15 @@ Accuracy alone can be misleading in imbalanced datasets. Macro F1 gives equal im
 
 ---
 
+## Limitation
+* The experiments were conducted on the PlantVillage dataset, which contains well-controlled images condition.
+
+* The study focuses on model comparison rather than performance optimization; hyperparameter tuning was intentionally not explored.
+
+* Class imbalance was handled using weighted loss only, without applying more advanced imbalance mitigation techniques
+
+---
+
 ## 📁 Repository Structure
 
 ```
@@ -158,7 +167,3 @@ Key learning outcomes:
 * How **transfer learning** improves performance on imbalanced data
 * Why **macro F1-score** is important beyond accuracy
 * How to interpret **confusion matrices** and class-level behavior
-* How to turn experimental results into **structured analysis**
-
-* Shorten this README into a **lighter version** for portfolio, or
-* Adapt it into a **formal project report** style.
